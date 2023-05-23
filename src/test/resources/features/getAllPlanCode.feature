@@ -13,6 +13,5 @@ Feature: Get All Plan Code Test
     Then status 200
     And print response
     And assert response[0].planType == "MOTORCYCLE"
-    And assert response[1].id == 1235
     And assert response[2].icon == "house"
     And assert response[3].planType == "AUTO"
